@@ -1,18 +1,18 @@
-# 🎬 Movie Recommender System
+# Movie Recommender System
 
 A content-based movie recommendation system built using **Python**, **Machine Learning**, and **Streamlit**. The system suggests movies similar to a user's choice based on metadata such as genres, keywords, cast, and crew.
 
-## 🚀 Live Demo
+## Live Demo
 The application features a sleek web interface where you can select a movie and instantly receive 5 recommendations with posters fetched via **The Movie Database (TMDB) API**.
 
-## ✨ Features
+## Features
 
 - **Content-Based Filtering**: Recommends movies based on similarity in tags (genres, overview, cast, director).
 - **Interactive UI**: Built with Streamlit for a smooth user experience.
 - **Real-time Posters**: Dynamically fetches movie posters using the TMDB API.
 - **Natural Language Processing**: Uses `CountVectorizer` and Stemming to process movie metadata into searchable tags.
 
-## 🛠️ Machine Learning Workflow
+## Machine Learning Workflow
 
 1. **Data Collection**: Used the [TMDB 5000 Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 2. **Data Preprocessing**:
@@ -24,14 +24,14 @@ The application features a sleek web interface where you can select a movie and 
 4. **Similarity Calculation**: Used **Cosine Similarity** to measure the distance between movie vectors.
 5. **Model Persistence**: Saved the processed data and similarity matrix using `pickle` for fast loading in the web app.
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.x
 - **Libraries**: Pandas, NumPy, Scikit-Learn, NLTK, Requests
 - **Frontend**: Streamlit
 - **API**: TMDB API
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -43,7 +43,7 @@ The application features a sleek web interface where you can select a movie and 
 └── tmdb_5000_credits.csv   # Raw credits dataset
 ```
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**:
    ```bash
@@ -61,7 +61,7 @@ The application features a sleek web interface where you can select a movie and 
    streamlit run app.py
    ```
 
-## 📝 License
+## License
 This project is open-source. Feel free to use and improve it!
 
 ---
